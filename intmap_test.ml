@@ -1,4 +1,4 @@
-module M = Intmap.Make (struct type t = int let get_id n = n end)
+(* module M = Intmap.Make (struct type t = int let get_id n = n end)
 open M
 
 
@@ -166,4 +166,4 @@ let retest () =
   for i = 1 to 10 do let _ = test 100 in () done
 let _ = retest ()
 
-*)
+*) *)

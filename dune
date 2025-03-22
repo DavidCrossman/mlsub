@@ -1,0 +1,10 @@
+(executable
+ (name main)
+ (promote (until-clean))
+ (libraries str))
+
+(menhir
+ (modules parser))
+
+(ocamllex
+ (modules lexer))

@@ -12,7 +12,7 @@ let parse_modlist src =
   end in
   let module L = Lexer.Make (Loc) in
   let module P = Parser.Make (Loc) in
-  let module I = P.MenhirInterpreter in
+  (* let module I = P.MenhirInterpreter in *)
   let buf = Lexing.from_string src.contents in
   P.modlist L.read buf
   

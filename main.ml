@@ -140,7 +140,7 @@ let repl () =
   end in
   let module L = Lexer.Make (Loc) in
   let module P = Parser.Make (Loc) in
-  let module I = P.MenhirInterpreter in
+  (* let module I = P.MenhirInterpreter in *)
   let gamma = ref gamma0 in
   while true do
     let buf = Lexing.from_string (input_line stdin) in
