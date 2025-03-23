@@ -1,6 +1,8 @@
 (executable
  (name main)
- (promote (until-clean))
+ (public_name mlsub)
+ (promote
+  (into .))
  (libraries str))
 
 (menhir
