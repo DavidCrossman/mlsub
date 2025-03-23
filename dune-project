@@ -12,4 +12,5 @@
  (depends
   (ocaml
    (>= 4))
-  dune))
+  dune
+  menhir))
